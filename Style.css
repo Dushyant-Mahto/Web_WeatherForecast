@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(pic.jpg);
+}
+
+.input>input{
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  height: 0.5%;
+  background: rgba(81, 163, 178, 0.4);
+  font-style: 'Seoge UI';
+  color: rgb(4, 72, 83);
+}
+
+.button{
+  border: rgb(84, 116, 132);
+  align-items: center;
+  width: 60px;
+  height: 30px;
+  padding-bottom: 0px;
+  border-radius: 20px;
+  background:rgba(73, 91, 136, 0.4);
+  font-family: 'Segoe UI',  sans-serif;
+  transition: 0.5s;
+}
+
+.button:hover{
+  background-color: rgb(255, 255, 255, 0.2);
+}
